@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBrunooDev | Sobre</title>
+
+    <!-- Icone da aba do navegador -->
+    <link rel="icon" type="image/x-icon" href="src/img/Icon-BrunoH-V2.png">
+
+    <link rel="stylesheet" href="src/css/root.css">
+    <link rel="stylesheet" href="src/css/index.css"> <!-- Reutilizando estilos de header/footer -->
+    <link rel="stylesheet" href="src/css/sobre.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Devicon (ícones) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">Bruno Henrique<span>.dev</span></a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <!-- <li><a href="sobre.html" class="active">Sobre</a></li>
+                <li><a href="carreira.html">Carreira</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li> -->
+            </ul>
+
+            <button class="menu-toggle" aria-label="Abrir Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="about-hero container">
+            <div class="section-header reveal">
+                <h1 class="section-title">Sobre Mim</h1>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image-container reveal">
+                    <img src="src/img/Icon-Bruno-Original.jpg" alt="Bruno Henrique Perfil">
+                </div>
+
+                <div class="about-text-container reveal">
+                    <h3>Transformando ideias em soluções digitais.</h3>
+                    <p>
+                        Olá! Sou Bruno Henrique, tenho 23 anos e sou desenvolvedor Front-End em formação. Apaixonado por
+                        tecnologia, estou focado na criação de interfaces modernas, responsivas e intuitivas, sempre
+                        buscando evoluir minhas habilidades e proporcionar a melhor experiência para os usuários. Estou
+                        constantemente aprendendo novas tecnologias e enfrentando desafios que contribuam para meu
+                        crescimento profissional.
+                    </p>
+                    <p>
+                        Focado em desenvolver interfaces modernas, responsivas e intuitivas, utilizando boas práticas de
+                        desenvolvimento, código limpo e soluções que proporcionam uma excelente experiência ao usuário e
+                        geram resultados reais.
+                    </p>
+                    <p>
+                        Acredito que a tecnologia deve resolver problemas e gerar valor para as pessoas. Busco minha
+                        primeira oportunidade como desenvolvedor Front-End para aplicar meus conhecimentos na criação de
+                        interfaces modernas e funcionais, contribuir com os projetos da equipe e continuar evoluindo
+                        profissionalmente.
+                    </p>
+
+                    <div class="about-info-cards">
+                        <div class="info-card">
+                            <span class="info-label">Localização</span>
+                            <span class="info-value">São Paulo / Osasco</span>
+                        </div>
+                        <div class="info-card">
+                            <span class="info-label">Especialidade</span>
+                            <span class="info-value">Front-End</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Terminal -->
+        <section class="terminal-section container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Terminal de Navegação</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="terminal-container reveal">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="terminal-btn close"></span>
+                        <span class="terminal-btn minimize"></span>
+                        <span class="terminal-btn maximize"></span>
+                    </div>
+                    <div class="terminal-title">Root@DevIBrunoo:~$</div>
+                </div>
+                <div class="terminal-body" id="terminal-body">
+                    <div class="terminal-output">
+                        <span class="terminal-welcome">Bem-vindo ao terminal do portfólio!</span>
+                        <span class="terminal-info">Clique nos botões abaixo ou digite um comando:</span>
+
+                        <div class="terminal-quick-actions">
+                            <button class="terminal-quick-btn" data-cmd="inicio">
+                                ▶ inicio
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="sobre">
+                                ▶ sobre
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="carreira">
+                                ▶ carreira
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="projetos">
+                                ▶ projetos
+                            </button>
+
+
+                            <button class="terminal-quick-btn" data-cmd="skill">
+                                ▶ skill
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="contato">
+                                ▶ contato
+                            </button>
+                        </div>
+
+                        <span class="terminal-cmd-example"><span class="cmd-text">inicio</span> - Página Inicial</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">sobre</span> - Sobre Mim</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">carreira</span> - Carreira</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">projetos</span> - Projetos</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">skill</span> - Minhas Skills</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">contato</span> - Contato</span>
+                        <br>
+                        <br><br>
+                    </div>
+                    <div class="terminal-input-line">
+                        <span class="terminal-prompt">Root@DevIBrunoo:~$</span>
+                        <input type="text" id="terminal-input" class="terminal-input" autocomplete="off"
+                            placeholder="Digite um comando e pressione Enter..." required>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Bruno Henrique. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/brunocarus/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/IBrunooD3v" target="_blank">GitHub</a>
+                <a href="https://www.instagram.com/ibrunood3v_/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+
+</html>

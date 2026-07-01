@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBrunooDev | Skills</title>
+
+    <!-- Icone da aba do navegador -->
+    <link rel="icon" type="image/x-icon" href="src/img/Icon-BrunoH-V2.png">
+
+    <!-- Devicon (ícones) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link rel="stylesheet" href="src/css/root.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/skills.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">Bruno Henrique<span>.dev</span></a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <!-- <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="carreira.html">Carreira</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li> -->
+            </ul>
+
+            <button class="menu-toggle" aria-label="Abrir Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="skills-hero container">
+            <div class="section-header reveal">
+                <h1 class="section-title">Minhas Skills atuais</h1>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="skills-grid reveal">
+
+                <div class="skill-card">
+                    <i class="devicon-html5-plain colored"></i>
+                    <span>HTML</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="devicon-css3-plain colored"></i>
+                    <span>CSS</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="devicon-typescript-plain colored"></i>
+                    <span>TypeScript</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="devicon-react-original colored"></i>
+                    <span>React</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="devicon-nextjs-plain colored"></i>
+                    <span>Next.js</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="devicon-tailwindcss-original colored"></i>
+                    <span>Tailwind CSS</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="devicon-git-plain colored"></i>
+                    <span>Git</span>
+                </div>
+
+                <div class="skill-card">
+                    <i class="devicon-github-plain colored"></i>
+                    <span>GitHub</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Seção Terminal -->
+        <section class="terminal-section container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Terminal de Navegação</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="terminal-container reveal">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="terminal-btn close"></span>
+                        <span class="terminal-btn minimize"></span>
+                        <span class="terminal-btn maximize"></span>
+                    </div>
+                    <div class="terminal-title">Root@DevIBrunoo:~$</div>
+                </div>
+                <div class="terminal-body" id="terminal-body">
+                    <div class="terminal-output">
+                        <span class="terminal-welcome">Bem-vindo ao terminal do portfólio!</span>
+                        <span class="terminal-info">Clique nos botões abaixo ou digite um comando:</span>
+
+                        <div class="terminal-quick-actions">
+                            <button class="terminal-quick-btn" data-cmd="inicio">
+                                ▶ inicio
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="sobre">
+                                ▶ sobre
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="carreira">
+                                ▶ carreira
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="projetos">
+                                ▶ projetos
+                            </button>
+
+
+                            <button class="terminal-quick-btn" data-cmd="skill">
+                                ▶ skill
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="contato">
+                                ▶ contato
+                            </button>
+                        </div>
+
+                        <span class="terminal-cmd-example"><span class="cmd-text">inicio</span> - Página Inicial</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">sobre</span> - Sobre Mim</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">carreira</span> - Carreira</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">projetos</span> - Projetos</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">skill</span> - Minhas Skills</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">contato</span> - Contato</span>
+                        <br>
+                        <br><br>
+                    </div>
+                    <div class="terminal-input-line">
+                        <span class="terminal-prompt">Root@DevIBrunoo:~$</span>
+                        <input type="text" id="terminal-input" class="terminal-input" autocomplete="off"
+                            placeholder="Digite um comando e pressione Enter..." required>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Bruno Henrique. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/brunocarus/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/IBrunooD3v" target="_blank">GitHub</a>
+                <a href="https://www.instagram.com/ibrunood3v_/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+
+</html>

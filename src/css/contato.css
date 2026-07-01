@@ -1,0 +1,127 @@
+/* 
+  CONTATO.CSS - NOVO DESIGN MODERNO
+*/
+
+.contact-modern {
+    padding-bottom: var(--space-xl);
+}
+
+.contact-wrapper {
+    display: flex;
+    gap: var(--space-lg);
+    align-items: flex-start;
+}
+
+.contact-header {
+    flex: 1;
+}
+
+.contact-label {
+    display: block;
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: var(--space-sm);
+    text-transform: uppercase;
+}
+
+.contact-main-title {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: var(--space-md);
+    color: #fff;
+    
+}
+
+.contact-description {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    max-width: 650px;
+    line-height: 1.6;
+
+}
+
+.social-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: var(--space-lg);
+    color: #fff;
+    
+}
+
+.social-cards-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    
+}
+
+.social-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    background: rgba(20, 20, 20, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 20px 24px;
+    border-radius: 12px;
+    transition: var(--transition-normal);
+    text-decoration: none;
+}
+
+.social-card:hover {
+    background: rgba(30, 30, 30, 0.8);
+    border-color: var(--primary-color);
+    transform: translateX(10px);
+}
+
+.social-icon-wrapper {
+    width: 48px;
+    height: 48px;
+    background: rgba(0, 212, 255, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.social-svg {
+    width: 24px;
+    height: 24px;
+}
+
+.social-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 992px) {
+    .contact-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-main-title {
+        font-size: 2.5rem;
+    }
+    
+    .social-card {
+        padding: 16px;
+    }
+    
+    .social-card:hover {
+        transform: translateX(5px);
+    }
+}

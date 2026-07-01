@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBrunooDev | Carreira</title>
+
+    <!-- Icone da aba do navegador -->
+    <link rel="icon" type="image/x-icon" href="src/img/Icon-BrunoH-V2.png">
+
+    <link rel="stylesheet" href="src/css/root.css">
+    <link rel="stylesheet" href="src/css/index.css"> <!-- Reutilizando estilos de header/footer -->
+    <link rel="stylesheet" href="src/css/carreira.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Devicon (ícones) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">Bruno Henrique<span>.dev</span></a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <!-- <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="carreira.html" class="active">Carreira</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li> -->
+            </ul>
+
+            <button class="menu-toggle" aria-label="Abrir Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="career-section container">
+            <div class="section-header reveal">
+                <h1 class="section-title">Minha Carreira</h1>
+                <p class="section-subtitle">Minha trajetória profissional e formação acadêmica.</p>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2026 - Em Progresso</div>
+                    <div class="timeline-content">
+                        <h3>Transição de Carreira & Estudos</h3>
+                        <p class="company">Autodidata</p>
+                        <p>Início da minha jornada em tecnologia com foco em desenvolvimento Front-End, estudando as
+                            principais tecnologias voltadas à criação de interfaces modernas, responsivas e acessíveis.
+                            Ao longo dessa trajetória, venho desenvolvendo projetos práticos e aprofundando
+                            conhecimentos em HTML, CSS, JavaScript, React, Next.Js, Tailwind CSS, Git e GitHub, sempre buscando
+                            aplicar boas práticas de desenvolvimento, melhorar a experiência do usuário e aprimorar
+                            minhas habilidades continuamente.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2026</div>
+                    <div class="timeline-content">
+                        <h3>Desenvolvedor Front-End Freelancer</h3>
+                        <p class="company">Projetos Independentes</p>
+                        <p>Atuando no desenvolvimento de landing pages e sistemas web modernos com foco em UX/UI e
+                            performance.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - 2026</div>
+                    <div class="timeline-content">
+                        <h3>Formação Full-Stack Avançada</h3>
+                        <p class="company">OneBitCode</p>
+                        <p>Atividades e grupos: Onebitcode Formação JavaScript - "Online"</p>
+                        <p>Tecnologias que você pode aprender nesse curso: HTML5, CSS3, JavaScript, TypeScript, React,
+                            Next.js, Node.js e Bancos de Dados.</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3>Experiência Anterior</h3>
+                        <p class="company">Diversas Áreas</p>
+                        <p>Experiência em atendimento ao cliente e suporte, desenvolvendo habilidades essenciais como
+                            comunicação eficaz, empatia e resolução de problemas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Terminal -->
+        <section class="terminal-section container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Terminal de Navegação</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="terminal-container reveal">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="terminal-btn close"></span>
+                        <span class="terminal-btn minimize"></span>
+                        <span class="terminal-btn maximize"></span>
+                    </div>
+                    <div class="terminal-title">Root@DevIBrunoo:~$</div>
+                </div>
+                <div class="terminal-body" id="terminal-body">
+                    <div class="terminal-output">
+                        <span class="terminal-welcome">Bem-vindo ao terminal do portfólio!</span>
+                        <span class="terminal-info">Clique nos botões abaixo ou digite um comando:</span>
+
+                        <div class="terminal-quick-actions">
+                            <button class="terminal-quick-btn" data-cmd="inicio">
+                                ▶ inicio
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="sobre">
+                                ▶ sobre
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="carreira">
+                                ▶ carreira
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="projetos">
+                                ▶ projetos
+                            </button>
+
+
+                            <button class="terminal-quick-btn" data-cmd="skill">
+                                ▶ skill
+                            </button>
+
+                            <button class="terminal-quick-btn" data-cmd="contato">
+                                ▶ contato
+                            </button>
+                        </div>
+                        <span class="terminal-cmd-example"><span class="cmd-text">inicio</span> - Página Inicial</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">sobre</span> - Sobre Mim</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">carreira</span> - Carreira</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">projetos</span> - Projetos</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">skill</span> - Minhas Skills</span>
+                        <br>
+                        <span class="terminal-cmd-example"><span class="cmd-text">contato</span> - Contato</span>
+                        <br>
+                        <br><br>
+                    </div>
+                    <div class="terminal-input-line">
+                        <span class="terminal-prompt">Root@DevIBrunoo:~$</span>
+                        <input type="text" id="terminal-input" class="terminal-input" autocomplete="off"
+                            placeholder="Digite um comando e pressione Enter..." required>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Bruno Henrique. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/brunocarus/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/IBrunooD3v" target="_blank">GitHub</a>
+                <a href="https://www.instagram.com/ibrunood3v_/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+
+</html>

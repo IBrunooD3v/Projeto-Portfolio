@@ -1,0 +1,45 @@
+/* 
+  SKILLS.CSS - ESTILOS DA PÁGINA DE SKILLS
+*/
+
+.skills-hero {
+    margin-bottom: var(--space-xl);
+}
+
+/* Link Devicon */
+.skills-hero::before {
+    content: '';
+    display: none;
+}
+
+/* GITHUB BRANCO */
+.devicon-github-original {
+    color: #fff;
+}
+
+/* RESPONSIVIDADE ESPECÍFICA PARA SKILLS */
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .skill-card {
+        padding: 20px;
+    }
+
+    .skill-card i {
+        font-size: 2.5rem;
+    }
+
+    .skill-card span {
+        font-size: 0.9rem;
+    }
+}
