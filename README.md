@@ -2,7 +2,8 @@
 
 O meu portfólio profissional, com design moderno e um terminal de navegação **MUITO TOP**!
 ---
-<img width="1366" height="601" alt="image" src="https://github.com/user-attachments/assets/f9be84f4-fbb7-4b9b-8994-280ed0e4571d" />
+<img width="1365" height="603" alt="image" src="https://github.com/user-attachments/assets/41f7f63a-c7ca-4b5f-9907-558afdc0936a" />
+
 
 ## 🔗 Acesse Agora
 
@@ -10,6 +11,7 @@ O meu portfólio profissional, com design moderno e um terminal de navegação *
 | :--- | :--- |
 | 🌐 Site | [ibrunood3v.netlify.app](https://ibrunood3v.netlify.app/) |
 | 💼 LinkedIn | [linkedin.com/in/brunocarus](https://linkedin.com/in/brunocarus) |
+| 🤳🏻 Instagram | [https://www.instagram.com/ibrunood3v_/](https://www.instagram.com/ibrunood3v_/) |
 | 🧑‍💻 GitHub | [github.com/IBrunooD3v](https://github.com/IBrunooD3v) |
 
 ---
